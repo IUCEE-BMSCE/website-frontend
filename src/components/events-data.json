@@ -28,7 +28,7 @@
         },
         "prerequsits": "Curiosity and a Computer",
         "form_url": "https://google.com",
-        "poster": "iucee.svg",
+        "poster": "trial.png",
         "type": "Solo"
     },
     {
@@ -45,7 +45,7 @@
         },
         "prerequsits": "Curiosity and a Computer",
         "form_url": "https://google.com",
-        "poster": "iucee.svg",
+        "poster": "trial.png",
         "type": "Solo"
     }, {
         "id": 4,
@@ -62,7 +62,7 @@
         },
         "prerequsits": "Curiosity and a Computer",
         "form_url": "https://google.com",
-        "poster": "iucee.svg",
+        "poster": "trial.png",
         "type": "Solo"
     }, {
         "id": 5,
@@ -78,7 +78,7 @@
         },
         "prerequsits": "Curiosity and a Computer",
         "form_url": "https://google.com",
-        "poster": "iucee.svg",
+        "poster": "trial.png",
         "type": "Solo"
     }
 ]

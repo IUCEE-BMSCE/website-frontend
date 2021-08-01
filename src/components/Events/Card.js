@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { FaWhatsapp } from "react-icons/fa";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import eventsData from "../events-data.json";
-import "./Card.css";
+import "../Card.css";
 
 const Card = (props) => {
   return (

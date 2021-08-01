@@ -1,10 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { FaWhatsapp } from "react-icons/fa";
-import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 import eventsData from "../events-data.json";
-import "./Events.css";
+import "../Card.css";
 
 const Events = (props) => {
   return (
@@ -18,7 +16,7 @@ const Events = (props) => {
                 data.important === false ||
                 data.important === "" ||
                 data.important === undefined
-              ) {
+              ) { return("");
               } else {
                 return (
                   <div className="col align-items-center">
@@ -135,25 +133,22 @@ const Events = (props) => {
 };
 const EventsButton = styled.div`
   a {
-    color: #fff;
-    background: linear-gradient(90deg, #fc466b 10%, #3f5efb 90%);
-    margin: 10px;
-    text-decoration: none !important;
-    padding: 15px 10px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 100% auto;
-    border-radius: 5px;
-    white-space: nowrap;
-
-    margin-bottom: 12px;
-    font-size: 16px;
-    font-weight: 800;
-    &:hover {
-      background: linear-gradient(270deg, #fc466b 10%, #3f5efb 90%);
-      color: #fff;
-    }
+    text-decoration: none;
+    align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: 10px;
+      background-color: #da0037;
+      border: none;
+      border-radius: 50px;
+      padding 15px 30px;
+      font-size: 24px;
+      font-weight: 700;
+      color: #ededed;
+      &:hover {
+        background-color: #121212;
+        color: #ededed;
+      }
   }
 `;
 const SubBucket = styled.div`
@@ -161,10 +156,10 @@ const SubBucket = styled.div`
   @media (min-width: 768px) {
     margin-top: 20px;
     h1 {
-      font-size: 72px;
+      font-size: 42px;
       font-weight: 800;
       background-color: #ffffff;
-      background: linear-gradient(90deg, #fc466b 45%, #3f5efb 55%);
+      background: linear-gradient(135deg, #fc466b 45%, #3f5efb 55%);
       background-size: 100%;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -175,10 +170,10 @@ const SubBucket = styled.div`
   @media (max-width: 768px) {
     margin-top: 20px;
     h1 {
-      font-size: 48px;
-      font-weight: 700;
+      font-size: 32px;
+      font-weight: 800;
       background-color: #ffffff;
-      background: linear-gradient(90deg, #fc466b 40%, #3f5efb 60%);
+      background: linear-gradient(135deg, #fc466b 40%, #3f5efb 60%);
       background-size: 100%;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;

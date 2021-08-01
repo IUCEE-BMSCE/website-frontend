@@ -41,10 +41,10 @@ const SubBucket = styled.div`
   @media (min-width: 768px) {
     margin-top: 20px;
     h1 {
-      font-size: 72px;
+      font-size: 48px;
       font-weight: 800;
       background-color: #ffffff;
-      background: linear-gradient(90deg, #fc466b 45%, #3f5efb 55%);
+      background: linear-gradient(135deg, #fc466b 45%, #3f5efb 55%);
       background-size: 100%;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -55,10 +55,10 @@ const SubBucket = styled.div`
   @media (max-width: 768px) {
     margin-top: 20px;
     h1 {
-      font-size: 48px;
-      font-weight: 700;
+      font-size: 36px;
+      font-weight: 800;
       background-color: #ffffff;
-      background: linear-gradient(90deg, #fc466b 40%, #3f5efb 60%);
+      background: linear-gradient(135deg, #fc466b 40%, #3f5efb 60%);
       background-size: 100%;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;

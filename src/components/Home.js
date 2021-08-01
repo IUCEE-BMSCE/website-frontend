@@ -2,6 +2,8 @@ import styled from "styled-components";
 import Carousel from "./Home/Carousel";
 import Objective from "./Home/Objective";
 import Events from "./Home/Events";
+import Subscribe from "./Subscribe/Subscribe";
+import Footer from "./Footer";
 
 const Home = (props) => {
   return (
@@ -10,6 +12,8 @@ const Home = (props) => {
         <Carousel />
         <Objective />
         <Events />
+        <Subscribe />
+        <Footer />
       </SubContainer>
     </Container>
   );

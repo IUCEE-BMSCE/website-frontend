@@ -1,0 +1,68 @@
+.cardrow {}
+
+.cardcol {}
+
+.imageforcard {
+    border-radius: 20px !important;
+    padding: 10px;
+}
+
+.bodyofcard {
+    background-color: #FFFFFF !important;
+    color: #121212;
+}
+
+.event-card {
+    border-radius: 10px !important;
+    background-color: #FFFFFF !important;
+    border: none;
+}
+
+.headerofcard {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    background-color: #FFFFFF !important;
+    color: #DA0037;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.titleofcard {
+    background-color: #FFFFFF !important;
+    color: #121212;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.descriptionofcard {
+    background-color: #FFFFFF !important;
+    color: #444444;
+    font-size: 20px;
+}
+
+.prerequsitsofcard {
+    background-color: #FFFFFF !important;
+    color: #3801B3;
+    font-size: 18px;
+}
+
+.contactofcard {
+    background-color: #FFFFFF !important;
+    color: #444444;
+}
+
+.knowmore {
+    background-color: #DA0037 !important;
+    color: #FFFFFF !important;
+}
+
+.knowmore:hover {
+    background-color: #121212 !important;
+    color: #FFFFFF !important;
+}
+
+.footerofcard {
+    border-radius: 10px !important;
+    background-color: #FFFFFF !important;
+    color: #3801B3;
+}
