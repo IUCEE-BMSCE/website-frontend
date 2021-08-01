@@ -1,23 +1,38 @@
 import styled from "styled-components";
+import Carousel from "./Home/Carousel";
+import Objective from "./Home/Objective";
+import Events from "./Home/Events";
 
 const Home = (props) => {
   return (
     <Container>
-        <h1>Hi! This is Home Page.</h1>
+      <SubContainer>
+        <Carousel />
+        <Objective />
+        <Events />
+      </SubContainer>
     </Container>
   );
 };
 
+
+const SubContainer = styled.div`
+@media (min-width: 768px) {
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  margin-top: 20px;
+}
+`;
 const Container = styled.main`
   color: #fff;
   position: relative;
-  min-height: calc(100vh - 90px);
+  justify-content: center;
+  min-height: calc(100vh);
   overflow-x: hidden;
-  display: block;
-  top: 90px;
   padding: 0 calc(3.5vw + 5px);
   &:after {
-    background-color: #181818 ;
+    background-color: #272727;
     content: "";
     position: absolute;
     inset: 0px;

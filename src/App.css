@@ -1,6 +1,7 @@
 .App {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none !important;
 }
 
 .App-logo {
@@ -36,4 +37,8 @@
     to {
         transform: rotate(360deg);
     }
+}
+
+.imagecard {
+    border-radius: 10px !important;
 }

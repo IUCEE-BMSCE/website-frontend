@@ -1,0 +1,61 @@
+.cardrow {}
+
+.cardcol {}
+
+.imageforcard {
+    border-radius: 20px !important;
+    padding: 10px;
+}
+
+.bodyofcard {
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+.event-card {
+    border-radius: 10px !important;
+    background-color: #121212 !important;
+    border: none;
+}
+
+.headerofcard {
+    border-radius: 10px !important;
+    background-color: #121212 !important;
+    color: #6142FF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.titleofcard {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.descriptionofcard {
+    color: #D1D1D1;
+    font-size: 20px;
+}
+
+.prerequsitsofcard {
+    color: #03DAC5;
+    font-size: 18px;
+}
+
+.contactofcard {
+    color: #FFFFFF;
+}
+
+.knowmore {
+    background-color: #6142FF !important;
+    color: #FFFFFF !important;
+}
+
+.knowmore:hover {
+    background-color: #29187D !important;
+    color: #FFFFFF !important;
+}
+
+.footerofcard {
+    color: #03DAC5;
+}

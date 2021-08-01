@@ -1,0 +1,15 @@
+[{
+        "id": 1,
+        "name": "Python Bootcamp",
+        "description": "This is a 36 hour activity based python workshop.",
+        "form_url": "https://google.com",
+        "poster": "banner1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Inyegration Bee",
+        "description": "This is a 36 hour activity based python workshop.",
+        "form_url": "https://google.com",
+        "poster": "banner2.jpg"
+    }
+]

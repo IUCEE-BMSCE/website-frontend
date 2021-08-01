@@ -1,0 +1,84 @@
+[{
+        "important": true,
+        "name": "Python Bootcamp",
+        "date_time": "August 14th 10 AM",
+        "duration": "36 hours",
+        "platform": "Discord and Google Meet",
+        "fee": "Free",
+        "description": "This is a 36 hour activity based python workshop.",
+        "contact": {
+            "contact1": { "name": "Vijayeshjeevan", "number": "8050978125" },
+            "contact2": { "name": "Sumedh", "number": "9740109658" }
+        },
+        "prerequsits": "Curiosity and a Computer",
+        "form_url": "https://google.com",
+        "poster": "trial.png",
+        "type": "Solo"
+    },
+    {
+        "name": "Python Nothing",
+        "date_time": "August 14th 10 AM",
+        "duration": "36 hours",
+        "platform": "Discord and Google Meet",
+        "fee": "Free",
+        "description": "This is a 36 hour activity based python workshop.",
+        "contact": {
+            "contact1": { "name": "Vijayeshjeevan", "number": "8050978125" },
+            "contact2": { "name": "Sumedh", "number": "9740109658" }
+        },
+        "prerequsits": "Curiosity and a Computer",
+        "form_url": "https://google.com",
+        "poster": "iucee.svg",
+        "type": "Solo"
+    },
+    {
+        "important": false,
+        "name": "Nothing",
+        "date_time": "August 14th 10 AM",
+        "duration": "36 hours",
+        "platform": "Discord and Google Meet",
+        "fee": "Free",
+        "description": "This is a 36 hour activity based python workshop.",
+        "contact": {
+            "contact1": { "name": "Vijayeshjeevan", "number": "8050978125" },
+            "contact2": { "name": "Sumedh", "number": "9740109658" }
+        },
+        "prerequsits": "Curiosity and a Computer",
+        "form_url": "https://google.com",
+        "poster": "iucee.svg",
+        "type": "Solo"
+    }, {
+        "id": 4,
+        "important": "",
+        "name": "Nothing",
+        "date_time": "August 14th 10 AM",
+        "duration": "36 hours",
+        "platform": "Discord and Google Meet",
+        "fee": "Free",
+        "description": "This is a 36 hour activity based python workshop.",
+        "contact": {
+            "contact1": { "name": "Vijayeshjeevan", "number": "8050978125" },
+            "contact2": { "name": "Sumedh", "number": "9740109658" }
+        },
+        "prerequsits": "Curiosity and a Computer",
+        "form_url": "https://google.com",
+        "poster": "iucee.svg",
+        "type": "Solo"
+    }, {
+        "id": 5,
+        "name": "Notng",
+        "date_time": "August 14th 10 AM",
+        "duration": "36 hours",
+        "platform": "Discord and Google Meet",
+        "fee": "Free",
+        "description": "This is a 36 hour activity based python workshop.",
+        "contact": {
+            "contact1": { "name": "Vijayeshjeevan", "number": "8050978125" },
+            "contact2": { "name": "Sumedh", "number": "9740109658" }
+        },
+        "prerequsits": "Curiosity and a Computer",
+        "form_url": "https://google.com",
+        "poster": "iucee.svg",
+        "type": "Solo"
+    }
+]

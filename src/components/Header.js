@@ -1,8 +1,9 @@
 import styled from "styled-components";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
-import MobileNavigation from "./MobileNav";
+import MobileNavigation from "./Header/MobileNav";
 import { useState } from "react";
+import "./Header/Header.css";
 
 const Header = (props) => {
   const [open, setOpen] = useState(false);
@@ -24,7 +25,9 @@ const Header = (props) => {
   return (
     <Nav>
       <Logo>
+        <a href="/home">
         <img src="/images/IUCEE.svg" alt="IUCEE-BMSCE" />
+        </a>
       </Logo>
       <NavMenu>
         <a href="/home">
@@ -33,10 +36,10 @@ const Header = (props) => {
         <a href="/events">
           <span> Events </span>
         </a>
-        <a href="/about">
+        <a href="/aboutus">
           <span> About Us </span>
         </a>
-        <a href="/contact">
+        <a href="/contactus">
           <span> Contact Us </span>
         </a>
       </NavMenu>
@@ -46,14 +49,14 @@ const Header = (props) => {
       </MobiNav>
 
       <CallToAction>
-        <BigButton>
-          <a href="/join.html">
-            <span>Join as a Member</span>
+        <BigButton className="text-decoration-none">
+          <a href="/join.html" className="text-decoration-none">
+            <span className="text-decoration-none">Join as a Member</span>
           </a>
         </BigButton>
-        <SmallButton>
-          <a href="/join.html">
-            <span>Subscribe to Events</span>
+        <SmallButton className="text-decoration-none">
+          <a href="/join.html" className="text-decoration-none">
+            <span className="text-decoration-none">Subscribe to Events</span>
           </a>
         </SmallButton>
       </CallToAction>
@@ -69,7 +72,7 @@ const MobiNav = styled.div`
 const Nav = styled.nav`
   @media (min-width: 992px) {
     padding: 0 8% 0;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -82,7 +85,7 @@ const Nav = styled.nav`
   }
   @media (max-width: 992px) {
     padding: 0 5% 0;
-    position: fixed;
+    position: relative;
     flex-flow: row nowrap;
     top: 0;
     left: 0;
@@ -96,7 +99,7 @@ const Nav = styled.nav`
   }
 `;
 
-const Logo = styled.a`
+const Logo = styled.div`
   @media (min-width: 992px) {
     padding: 0;
     width: 150px;
@@ -208,7 +211,7 @@ const BigButton = styled.a`
       #ee0979 100%
     );
     margin: 10px;
-    text-decoration: none;
+    text-decoration: none !important;
     padding: 15px 10px;
     text-align: center;
     text-transform: uppercase;
@@ -221,6 +224,9 @@ const BigButton = styled.a`
     margin-bottom: 12px;
     font-size: 16px;
     font-weight: 800;
+    span{
+      text-decoration: none !important;
+    }
     &:hover {
       background-position: right center;
       color: #fff;
@@ -244,6 +250,9 @@ const SmallButton = styled.a`
     margin-bottom: 12px;
     font-size: 16px;
     font-weight: 600;
+    span{
+      text-decoration: none !important;
+    }
     &:hover {
       border-color: #ffffff;
       color: #fff;

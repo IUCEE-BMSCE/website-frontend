@@ -14,7 +14,6 @@ const Container = styled.main `
   min-height: calc(100vh - 90px);
   overflow-x: hidden;
   display: block;
-  top: 90px;
   padding: 0 calc(3.5vw + 5px);
   &:after {
     background-color: #181818 ;
