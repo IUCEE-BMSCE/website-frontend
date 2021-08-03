@@ -40,13 +40,7 @@ const SubBucket = styled.div`
     h1 {
       font-size: 42px;
       font-weight: 800;
-      background-color: #ffffff;
-      background: linear-gradient(135deg, #fc466b 30%, #3f5efb 70%);
-      background-size: 100%;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -moz-background-clip: text;
-      -moz-text-fill-color: transparent;
+      color: #DA0037;
     }
   }
   @media (max-width: 768px) {
@@ -54,13 +48,7 @@ const SubBucket = styled.div`
     h1 {
       font-size: 32px;
       font-weight: 700;
-      background-color: #ffffff;
-      background: linear-gradient(135deg, #fc466b 30%, #3f5efb 70%);
-      background-size: 100%;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -moz-background-clip: text;
-      -moz-text-fill-color: transparent;
+      color: #DA0037;
     }
   }
 `;
