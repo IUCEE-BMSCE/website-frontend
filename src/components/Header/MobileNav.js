@@ -9,20 +9,20 @@ const MobileNavigation = (props) => {
       <a href="/events">
         <span> Events </span>
       </a>
-      <a href="/about">
+      <a href="/aboutus">
         <span> About Us </span>
       </a>
-      <a href="/contact">
+      <a href="/contactus">
         <span> Contact Us </span>
       </a>
       <CallToAction>
         <BigButton>
-          <a href="/join.html">
+          <a href="/joinus">
             <span> Join as a Member </span>
           </a>
         </BigButton>
         <SmallButton>
-          <a href="/join.html">
+          <a href="/subscribe">
             <span> Subscribe to Events </span>
           </a>
         </SmallButton>

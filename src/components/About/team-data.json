@@ -1,0 +1,61 @@
+[{
+        "name": "Vishnu Prathap JRVP",
+        "role": "General Secratary",
+        "description": "This is a 36 hour activity based python workshop.",
+        "links": {
+            "linkedin": "https://",
+            "website": "https://"
+        },
+        "photo": "xyz.jpg"
+    },
+    {
+        "name": "Parjanya Modi",
+        "role": "Tech Lead",
+        "description": "This is a 36 hour activity based python workshop.",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/parjanyamodi/",
+            "website": "https://parjanyamodi.com"
+        },
+        "photo": "Parjanya.jpg"
+    },
+    {
+        "name": "Vijayeshjeevan Matam",
+        "role": "Project Manager",
+        "description": "This is a 36 hour activity based python workshop.",
+        "links": {
+            "linkedin": "https://",
+            "website": "https://"
+        },
+        "photo": "xyz.jpg"
+    },
+    {
+        "name": "Mohammed Zubair Khan",
+        "role": "Project Manager",
+        "description": "This is a 36 hour activity based python workshop.",
+        "links": {
+            "linkedin": "https://",
+            "website": "https://"
+        },
+        "photo": "xyz.jpg"
+    },
+    {
+        "name": "Meghana G K",
+        "role": "Joint Treasurer",
+        "description": "This is a 36 hour activity based python workshop.",
+        "links": {
+            "linkedin": "https://",
+            "website": "https://"
+        },
+        "photo": "xyz.jpg"
+    },
+    {
+        "name": "Shreya M Gupta",
+        "role": "Joint Treasurer",
+        "description": "This is a 36 hour activity based python workshop.",
+        "links": {
+            "linkedin": "https://",
+            "website": "https://"
+        },
+        "photo": "xyz.jpg"
+    }
+]

@@ -10,7 +10,7 @@ const Events = (props) => {
       <Bucket>
         <SubBucket>
           <h1>Upcoming Events</h1>
-          <div className="row row-cols-1 row-cols-md-3 g-4 mb-5 align-items-center">
+          <div className="row row-cols-1 row-cols-md-3 g-4 mb-5 align-items-center justify-content-center text-align-center">
             {eventsData.map((data) => {
               if (
                 data.important === false ||
@@ -158,13 +158,7 @@ const SubBucket = styled.div`
     h1 {
       font-size: 42px;
       font-weight: 800;
-      background-color: #ffffff;
-      background: linear-gradient(135deg, #fc466b 45%, #3f5efb 55%);
-      background-size: 100%;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -moz-background-clip: text;
-      -moz-text-fill-color: transparent;
+      color: #DA0037;
     }
   }
   @media (max-width: 768px) {
@@ -172,13 +166,7 @@ const SubBucket = styled.div`
     h1 {
       font-size: 32px;
       font-weight: 800;
-      background-color: #ffffff;
-      background: linear-gradient(135deg, #fc466b 40%, #3f5efb 60%);
-      background-size: 100%;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -moz-background-clip: text;
-      -moz-text-fill-color: transparent;
+      color: #DA0037;
     }
   }
 `;

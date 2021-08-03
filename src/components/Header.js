@@ -50,12 +50,12 @@ const Header = (props) => {
 
       <CallToAction>
         <BigButton className="text-decoration-none">
-          <a href="/join.html" className="text-decoration-none">
+          <a href="/joinus" className="text-decoration-none">
             <span className="text-decoration-none">Join as a Member</span>
           </a>
         </BigButton>
         <SmallButton className="text-decoration-none">
-          <a href="/join.html" className="text-decoration-none">
+          <a href="/subscribe" className="text-decoration-none">
             <span className="text-decoration-none">Subscribe to Events</span>
           </a>
         </SmallButton>

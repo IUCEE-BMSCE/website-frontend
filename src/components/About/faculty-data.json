@@ -1,0 +1,10 @@
+[{
+    "name": "Name Of Faculty",
+    "role": "Faculty Coordinator",
+    "description": "This is a 36 hour activity based python workshop.",
+    "links": {
+        "linkedin": "https://",
+        "website": "https://"
+    },
+    "photo": "xyz.jpg"
+}]

@@ -5,6 +5,8 @@ import Home from "./components/Home";
 import Events from "./components/Events";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import JoinUs from "./components/JoinUs";
+import Subscribe from"./components/Subscribe";
 import NotFound from "./components/NotFound";
 
 
@@ -23,20 +25,17 @@ function App() {
           <Route path="/events">
             <Events />
           </Route>
-          <Route path="/event">
-            <Events />
-          </Route>
           <Route path="/aboutus">
-            <About />
-          </Route>
-          <Route path="/about">
             <About />
           </Route>
           <Route path="/contactus">
             <Contact />
           </Route>
-          <Route path="/contact">
-            <Contact />
+          <Route path="/joinus">
+            <JoinUs />
+          </Route>
+          <Route path="/subscribe">
+            <Subscribe />
           </Route>
           <Route path="*">
             <NotFound />

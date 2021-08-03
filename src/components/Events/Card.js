@@ -8,10 +8,10 @@ import "../Card.css";
 const Card = (props) => {
   return (
     <CardBody>
-      <div className="row row-cols-1 row-cols-md-3 g-4 mb-5 align-items-center cardrow">
+      <div className="row row-cols-1 row-cols-xl-3 row-cols-lg-2 row-cols-md-2 g-4 mb-5 align-items-center justify-content-center text-center cardrow">
         {eventsData.map((data) => {
           return (
-            <div className="col align-items-center cardcol">
+            <div className="col align-items-center justify-content-between cardcol">
               <div className="event-card card h-100 text-center ">
                 <div className="headerofcard card-header">
                   Type : {data.type}

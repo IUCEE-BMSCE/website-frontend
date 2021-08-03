@@ -54,6 +54,7 @@
 .knowmore {
     background-color: #DA0037 !important;
     color: #FFFFFF !important;
+    border-radius: 50px !important;
 }
 
 .knowmore:hover {
@@ -62,7 +63,8 @@
 }
 
 .footerofcard {
-    border-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
     background-color: #FFFFFF !important;
     color: #3801B3;
 }

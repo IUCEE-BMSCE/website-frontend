@@ -1,0 +1,52 @@
+.teamcardrow {
+    background-color: #272727 !important;
+}
+
+.teamcardcol {
+    background-color: #272727 !important;
+}
+
+.teamcard {
+    background-color: #FFFFFF !important;
+    border-radius: 10px;
+}
+
+.teamcard-image {
+    background-color: #FFFFFF !important;
+    color: #121212 !important;
+    align-self: center;
+    border-radius: 50%;
+    padding: 20px;
+    width: 220px;
+    height: 220px;
+}
+
+.teamcard-body {
+    background-color: #FFFFFF !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.teamcard-title {
+    color: #121212 !important;
+    font-size: 22px !important;
+    font-weight: 700;
+}
+
+.teamcard-subtitle {
+    color: #da0037 !important;
+    font-size: 16px !important;
+}
+
+.teamcard-text {
+    color: #444444 !important
+}
+
+.teamcard-link {
+    font-size: 20px !important;
+    color: #da0037 !important;
+}
+
+.teamcard-link:hover {
+    color: #121212 !important;
+}

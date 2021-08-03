@@ -4,8 +4,7 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedinIn,
-  FaYoutube,
-  FaReact
+  FaYoutube
 } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";

@@ -1,0 +1,21 @@
+[{
+        "name": "Name Of Faculty",
+        "role": "President",
+        "description": "This is a 36 hour activity based python workshop.",
+        "links": {
+            "linkedin": "https://",
+            "website": "https://"
+        },
+        "photo": "xyz.jpg"
+    },
+    {
+        "name": "Name Of Faculty",
+        "role": "Vice President",
+        "description": "This is a 36 hour activity based python workshop.",
+        "links": {
+            "linkedin": "https://",
+            "website": "https://"
+        },
+        "photo": "xyz.jpg"
+    }
+]
