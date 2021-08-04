@@ -24,9 +24,9 @@ const Header = (props) => {
   
   return (
     <Nav>
-      <Logo>
+      <Logo className="text-align-text align-items-center justify-content-center">
         <a href="/home">
-        <img src="/images/IUCEE.svg" alt="IUCEE-BMSCE" />
+        <img src="/images/logo.png" alt="IUCEE-BMSCE" />
         </a>
       </Logo>
       <NavMenu>
@@ -102,7 +102,7 @@ const Nav = styled.nav`
 const Logo = styled.div`
   @media (min-width: 992px) {
     padding: 0;
-    width: 150px;
+    width: 185px;
     margin-top: 4px;
     margin-bottom: 4px;
     max-height: 70px;
@@ -111,7 +111,7 @@ const Logo = styled.div`
     flex-flow: row nowrap;
     img {
       display: flex;
-      width: 150px;
+      width: 185px;
     }
   }
   @media (max-width: 992px) {
@@ -204,12 +204,7 @@ const CallToAction = styled.div`
 const BigButton = styled.a`
   a {
     color: #fff;
-    background-image: linear-gradient(
-      to right,
-      #ee0979 0%,
-      #ff6a00 51%,
-      #ee0979 100%
-    );
+    background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 80%);
     margin: 10px;
     text-decoration: none !important;
     padding: 15px 10px;

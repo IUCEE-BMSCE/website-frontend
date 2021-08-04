@@ -29,7 +29,7 @@ const Card = (props) => {
                     {data.description}
                   </p>
                   <p className="card-text prerequsitsofcard">
-                    <strong>Prerequsits</strong> : {data.prerequsits}
+                    <strong>Prerequisites</strong> : {data.prerequsits}
                   </p>
                   <p className="card-text contactofcard">
                     {data.contact.contact1.name !== "" &&

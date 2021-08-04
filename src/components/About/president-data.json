@@ -1,21 +1,19 @@
 [{
-        "name": "Name Of Faculty",
+        "name": "Ritika Siyal",
         "role": "President",
-        "description": "This is a 36 hour activity based python workshop.",
         "links": {
-            "linkedin": "https://",
-            "website": "https://"
+            "linkedin": "https://www.linkedin.com/in/ritika-siyal-b8a16b160/",
+            "website": ""
         },
-        "photo": "xyz.jpg"
+        "photo": "ritika.jpg"
     },
     {
-        "name": "Name Of Faculty",
+        "name": "Sumedh D Karanth",
         "role": "Vice President",
-        "description": "This is a 36 hour activity based python workshop.",
         "links": {
-            "linkedin": "https://",
-            "website": "https://"
+            "linkedin": "https://www.linkedin.com/in/sumedh-karanth/",
+            "website": ""
         },
-        "photo": "xyz.jpg"
+        "photo": "sumedh.jpg"
     }
 ]

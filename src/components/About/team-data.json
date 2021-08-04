@@ -1,17 +1,15 @@
 [{
         "name": "Vishnu Prathap JRVP",
         "role": "General Secratary",
-        "description": "This is a 36 hour activity based python workshop.",
         "links": {
-            "linkedin": "https://",
-            "website": "https://"
+            "linkedin": "https://www.linkedin.com/in/vishnu-prathap-jrvp-08150b1b9",
+            "website": ""
         },
-        "photo": "xyz.jpg"
+        "photo": "vishnuprathap.jpg"
     },
     {
         "name": "Parjanya Modi",
         "role": "Tech Lead",
-        "description": "This is a 36 hour activity based python workshop.",
         "links": {
             "linkedin": "https://www.linkedin.com/in/parjanyamodi/",
             "website": "https://parjanyamodi.com"
@@ -21,41 +19,39 @@
     {
         "name": "Vijayeshjeevan Matam",
         "role": "Project Manager",
-        "description": "This is a 36 hour activity based python workshop.",
         "links": {
-            "linkedin": "https://",
-            "website": "https://"
+            "linkedin": "https://www.linkedin.com/in/vijayeshjeevan-matam-b0230a1b7/",
+            "website": ""
         },
-        "photo": "xyz.jpg"
+        "photo": "vijayeshjeevan.jpg"
     },
     {
         "name": "Mohammed Zubair Khan",
         "role": "Project Manager",
         "description": "This is a 36 hour activity based python workshop.",
         "links": {
-            "linkedin": "https://",
-            "website": "https://"
+            "linkedin": "https://www.linkedin.com/in/mohammed-zubair-khan-1259aa191/",
+            "website": ""
         },
-        "photo": "xyz.jpg"
+        "photo": "zubair.jpg"
     },
     {
         "name": "Meghana G K",
         "role": "Joint Treasurer",
         "description": "This is a 36 hour activity based python workshop.",
         "links": {
-            "linkedin": "https://",
-            "website": "https://"
+            "linkedin": "https://www.linkedin.com/in/meghana-gk-792b38207/",
+            "website": ""
         },
-        "photo": "xyz.jpg"
+        "photo": "meghana.jpg"
     },
     {
         "name": "Shreya M Gupta",
         "role": "Joint Treasurer",
-        "description": "This is a 36 hour activity based python workshop.",
         "links": {
-            "linkedin": "https://",
-            "website": "https://"
+            "linkedin": "https://www.linkedin.com/in/shreya-m-gupta-3620311b2",
+            "website": ""
         },
-        "photo": "xyz.jpg"
+        "photo": "shreya.jpg"
     }
 ]

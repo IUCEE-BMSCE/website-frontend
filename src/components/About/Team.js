@@ -26,7 +26,7 @@ const Team = (props) => {
                     {data.role}
                   </h6>
 
-                  {data.links.linkedin !== "" ||
+                  {data.links.linkedin !== "" &&
                   data.links.linkedin !== undefined ? (
                     <>
                       <hr className="text-dark" />
@@ -40,7 +40,7 @@ const Team = (props) => {
                   ) : (
                     <></>
                   )}
-                  {data.links.website !== "" ||
+                  {data.links.website !== "" &&
                   data.links.website !== undefined ? (
                     <>
                       <a
@@ -75,7 +75,7 @@ const Team = (props) => {
                     {data.role}
                   </h6>
 
-                  {data.links.linkedin !== "" ||
+                  {data.links.linkedin !== "" &&
                   data.links.linkedin !== undefined ? (
                     <>
                       <hr className="text-dark" />
@@ -89,7 +89,7 @@ const Team = (props) => {
                   ) : (
                     <></>
                   )}
-                  {data.links.website !== "" ||
+                  {data.links.website !== "" &&
                   data.links.website !== undefined ? (
                     <>
                       <a
@@ -124,7 +124,7 @@ const Team = (props) => {
                     {data.role}
                   </h6>
 
-                  {data.links.linkedin !== "" ||
+                  {data.links.linkedin !== "" &&
                   data.links.linkedin !== undefined ? (
                     <>
                       <hr className="text-dark" />
@@ -138,7 +138,7 @@ const Team = (props) => {
                   ) : (
                     <></>
                   )}
-                  {data.links.website !== "" ||
+                  {data.links.website !== "" &&
                   data.links.website !== undefined ? (
                     <>
                       <a
@@ -173,7 +173,7 @@ const Team = (props) => {
                     {data.role}
                   </h6>
 
-                  {data.links.linkedin !== "" ||
+                  {data.links.linkedin !== "" &&
                   data.links.linkedin !== undefined ? (
                     <>
                       <hr className="text-dark" />
@@ -187,7 +187,7 @@ const Team = (props) => {
                   ) : (
                     <></>
                   )}
-                  {data.links.website !== "" ||
+                  {data.links.website !== "" &&
                   data.links.website !== undefined ? (
                     <>
                       <a

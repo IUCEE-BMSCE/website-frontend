@@ -1,10 +1,9 @@
 [{
-    "name": "Name Of Faculty",
+    "name": "Dr. Rajath Vasudevamurthy",
     "role": "Faculty Coordinator",
-    "description": "This is a 36 hour activity based python workshop.",
     "links": {
-        "linkedin": "https://",
-        "website": "https://"
+        "linkedin": "https://www.linkedin.com/in/rajath-vasudevamurthy-a43bab7/",
+        "website": ""
     },
-    "photo": "xyz.jpg"
+    "photo": "rajath.jpg"
 }]
