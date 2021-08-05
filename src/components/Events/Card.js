@@ -28,9 +28,16 @@ const Card = (props) => {
                   <p className="card-text descriptionofcard">
                     {data.description}
                   </p>
-                  <p className="card-text prerequsitsofcard">
-                    <strong>Prerequisites</strong> : {data.prerequsits}
-                  </p>
+                  {data.prerequsits !== "" && data.prerequsits !== "" ? (
+                          <>
+                            <p className="card-text prerequsitsofcard">
+                              <strong>Prerequisites</strong> :{" "}
+                              {data.prerequsits}
+                            </p>
+                          </>
+                        ) : (
+                          <></>
+                        )}
                   <p className="card-text contactofcard">
                     {data.contact.contact1.name !== "" &&
                     data.contact.contact1.number !== "" ? (

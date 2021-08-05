@@ -16,7 +16,8 @@ const Events = (props) => {
                 data.important === false ||
                 data.important === "" ||
                 data.important === undefined
-              ) { return("");
+              ) {
+                return "";
               } else {
                 return (
                   <div className="col align-items-center">
@@ -36,9 +37,17 @@ const Events = (props) => {
                         <p className="card-text descriptionofcard">
                           {data.description}
                         </p>
-                        <p className="card-text prerequsitsofcard">
-                          <strong>Prerequisites</strong> : {data.prerequsits}
-                        </p>
+                        {data.prerequsits !== "" && data.prerequsits !== "" ? (
+                          <>
+                            <p className="card-text prerequsitsofcard">
+                              <strong>Prerequisites</strong> :{" "}
+                              {data.prerequsits}
+                            </p>
+                          </>
+                        ) : (
+                          <></>
+                        )}
+
                         <p className="card-text contactofcard">
                           {data.contact.contact1.name !== "" &&
                           data.contact.contact1.number !== "" ? (
@@ -158,7 +167,7 @@ const SubBucket = styled.div`
     h1 {
       font-size: 42px;
       font-weight: 800;
-      color: #DA0037;
+      color: #da0037;
     }
   }
   @media (max-width: 768px) {
@@ -166,7 +175,7 @@ const SubBucket = styled.div`
     h1 {
       font-size: 32px;
       font-weight: 800;
-      color: #DA0037;
+      color: #da0037;
     }
   }
 `;

@@ -204,7 +204,7 @@ const CallToAction = styled.div`
 const BigButton = styled.a`
   a {
     color: #fff;
-    background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 80%);
+    background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
     margin: 10px;
     text-decoration: none !important;
     padding: 15px 10px;
@@ -223,8 +223,8 @@ const BigButton = styled.a`
       text-decoration: none !important;
     }
     &:hover {
-      background-position: right center;
-      color: #fff;
+      background-position: right;
+      color: #121212;
     }
   }
 `;

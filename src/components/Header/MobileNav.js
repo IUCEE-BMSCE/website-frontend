@@ -106,12 +106,7 @@ const BigButton = styled.a`
   align-items: right;
   a {
     color: #fff;
-    background-image: linear-gradient(
-      to right,
-      #ee0979 0%,
-      #ff6a00 51%,
-      #ee0979 100%
-    );
+    background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 80%);
     margin-top: 15px;
     margin-left: 0px;
     text-decoration: none;
@@ -128,8 +123,8 @@ const BigButton = styled.a`
     font-size: 12px;
     font-weight: 600;
     &:hover {
-      background-position: right center;
-      color: #fff;
+      background-position: right;
+      color: #121212;
     }
   }
 `;

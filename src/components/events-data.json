@@ -1,7 +1,24 @@
 [{
         "important": true,
+        "name": " Social entrepreneurship and Spirit of Volunteerism with cYAAG",
+        "date_time": "August 7th, Sunday 12 PM",
+        "duration": "1 hours",
+        "platform": "Cisco WebEx",
+        "fee": "Free",
+        "description": "A webinar on gaining Activity Points through Social Entrepreneurship community cYAAG",
+        "contact": {
+            "contact1": { "name": "Shreya Gupta", "number": "9663835401" },
+            "contact2": { "name": "Meghana G K", "number": "8861561238" }
+        },
+        "prerequsits": "",
+        "form_url": "https://events.iucee-bmsce.live/cyaag-activity-point",
+        "poster": "cYAAG.png",
+        "type": "Solo"
+    },
+    {
+        "important": true,
         "name": "Python Bootcamp",
-        "date_time": "August 14th 10 AM",
+        "date_time": "August 14th, Saturday 10 AM",
         "duration": "36 hours",
         "platform": "Discord and Google Meet",
         "fee": "Free",
@@ -11,74 +28,8 @@
             "contact2": { "name": "Sumedh", "number": "9740109658" }
         },
         "prerequsits": "Curiosity and a Computer",
-        "form_url": "https://google.com",
-        "poster": "trial.png",
-        "type": "Solo"
-    },
-    {
-        "name": "Python Nothing",
-        "date_time": "August 14th 10 AM",
-        "duration": "36 hours",
-        "platform": "Discord and Google Meet",
-        "fee": "Free",
-        "description": "This is a 36 hour activity based python workshop.",
-        "contact": {
-            "contact1": { "name": "Vijayeshjeevan", "number": "8050978125" },
-            "contact2": { "name": "Sumedh", "number": "9740109658" }
-        },
-        "prerequsits": "Curiosity and a Computer",
-        "form_url": "https://google.com",
-        "poster": "trial.png",
-        "type": "Solo"
-    },
-    {
-        "important": false,
-        "name": "Nothing",
-        "date_time": "August 14th 10 AM",
-        "duration": "36 hours",
-        "platform": "Discord and Google Meet",
-        "fee": "Free",
-        "description": "This is a 36 hour activity based python workshop.",
-        "contact": {
-            "contact1": { "name": "Vijayeshjeevan", "number": "8050978125" },
-            "contact2": { "name": "Sumedh", "number": "9740109658" }
-        },
-        "prerequsits": "Curiosity and a Computer",
-        "form_url": "https://google.com",
-        "poster": "trial.png",
-        "type": "Solo"
-    }, {
-        "id": 4,
-        "important": "",
-        "name": "Nothing",
-        "date_time": "August 14th 10 AM",
-        "duration": "36 hours",
-        "platform": "Discord and Google Meet",
-        "fee": "Free",
-        "description": "This is a 36 hour activity based python workshop.",
-        "contact": {
-            "contact1": { "name": "Vijayeshjeevan", "number": "8050978125" },
-            "contact2": { "name": "Sumedh", "number": "9740109658" }
-        },
-        "prerequsits": "Curiosity and a Computer",
-        "form_url": "https://google.com",
-        "poster": "trial.png",
-        "type": "Solo"
-    }, {
-        "id": 5,
-        "name": "Notng",
-        "date_time": "August 14th 10 AM",
-        "duration": "36 hours",
-        "platform": "Discord and Google Meet",
-        "fee": "Free",
-        "description": "This is a 36 hour activity based python workshop.",
-        "contact": {
-            "contact1": { "name": "Vijayeshjeevan", "number": "8050978125" },
-            "contact2": { "name": "Sumedh", "number": "9740109658" }
-        },
-        "prerequsits": "Curiosity and a Computer",
-        "form_url": "https://google.com",
-        "poster": "trial.png",
+        "form_url": "https://events.iucee-bmsce.live/python-bootcamp",
+        "poster": "python-bootcamp.png",
         "type": "Solo"
     }
 ]
